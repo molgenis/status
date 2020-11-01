@@ -28,8 +28,18 @@ You can view the Issue Status demo [here](https://tadhglewis.github.io/issue-sta
 - Run `git checkout tags/VERSION` to checkout to the [latest version](#configuration). It is not recommended to setup using the master branch
 - Edit the `.env` file found in the root directory and enter your [configuration options](#configuration)
 
+### Install dependencies
+
+- On macOS: Install Homebrew if you don't already have it.
+- Use ```brew``` command to install dependencies:
+  ```
+  brew install npm
+  brew install yarn
+  ```
+
 ### GitHub Pages
 
+- Run `yarn` to fetch deps.
 - Run `npm run deploy` this will build the React project and deploy it to the `gh-pages` branch
 - Finally make sure GitHub Pages option in your GitHub repository settings is set to use the `gh-pages` branch
 
