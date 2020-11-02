@@ -77,9 +77,8 @@ Integrate and automate Components and Incidents, this may be useful for changing
 
 ## Configuration
 
-Customise your status page - ensure all required options are entered and any unused optional options are set blank, ie `REACT_APP_MANIFEST=`
+Customise your status page - ensure all required options are entered and any unused optional options are set blank.
 
-- `REACT_APP_MANIFEST` (optional) - Determines the manifest url in the built HTML file
 - `REACT_APP_TITLE` (required) - Determines the `<title>` tag in the built HTML file with suffix `Status`
 - `REACT_APP_DESCRIPTION` (optional) - Determines the description `<meta>` tag in the built HTML file
 - `REACT_APP_LOGO` (optional) - Accepts an image URL and is used in the status page header
